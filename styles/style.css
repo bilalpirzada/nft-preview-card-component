@@ -17,40 +17,41 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  
+  font-family: "Outfit";
 }
 
 body p{
-  font-size: 1rem;
+  font-size: 1.125rem;
 }
 
 main{
   background-color: var(--cardBGBlueColor);
-  padding: 20px;
+  padding: 30px;
   max-width: 400px;
   border-radius: 15px;
 }
 
 main img{
 border-radius: 12px;
-margin-bottom: 20px;
+margin-bottom: 25px;
 }
 
 main h1{
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   color: var(--White);
+  font-size: 1.5rem;
 }
 
 main .text{
   color: var(--Softblue);
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .eth-time-wrapper{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 .eth-value-wrapper{
@@ -86,7 +87,7 @@ main .text{
 
 hr{
   border: .5px solid var(--lineBlueColor);
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .creater-info-container{

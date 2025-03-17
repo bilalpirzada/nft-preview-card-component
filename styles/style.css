@@ -9,3 +9,70 @@
 --lineBlueColor: hsl(215, 32%, 27%);
 --White: hsl(0, 0%, 100%);
 }
+
+body{
+  background-color: var(--mainBGBlueColor);
+  height: 100vh;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main{
+  background-color: var(--cardBGBlueColor);
+  padding: 20px;
+  max-width: 400px;
+  border-radius: 15px;
+}
+
+main img{
+border-radius: 12px;
+margin-bottom: 20px;
+}
+
+main h1{
+  margin-bottom: 10px;
+  color: var(--White);
+}
+
+main .text{
+  color: var(--Softblue);
+  margin-bottom: 10px;
+}
+
+.eth-time-wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.eth-value-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.eth-value-wrapper img{
+  vertical-align: center;
+}
+
+.time-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.eth-value{
+  color: var(--Cyan);
+}
+
+.time{
+  color: var(--Softblue);
+}
+
+hr{
+  color: var(--lineBlueColor);
+  height: 1px;
+}

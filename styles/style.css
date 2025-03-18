@@ -149,4 +149,5 @@ hr{
 
 .creater-info-container span:hover{
   color: var(--Cyan);
+  cursor: pointer;
 }

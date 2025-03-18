@@ -31,15 +31,50 @@ main{
   border-radius: 15px;
 }
 
+.image-container{
+  position: relative;
+}
+
+.img-overlay{
+  background-color: hsla(178, 100%, 50%,.4);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  top:0;
+  left: 0;
+  opacity: 0;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-overlay:hover{
+  opacity: 1;
+  cursor: pointer;
+}
+
 main img{
 border-radius: 12px;
 margin-bottom: 25px;
 }
 
+
+main img:hover{
+  cursor: pointer;
+  background-image: var(--Cyan);
+  }
+
 main h1{
   margin-bottom: 20px;
   color: var(--White);
   font-size: 1.5rem;
+}
+
+main h1:hover{
+  cursor: pointer;
+  color: var(--Cyan);
 }
 
 main .text{
